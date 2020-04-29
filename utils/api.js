@@ -1,7 +1,14 @@
-const api = {
-  getUser(username) {
 
-  }
-};
+
+const api = {
+    getUser(username) {
+  
+    }
+  };
+  
+
+
+
+
 
 module.exports = api;
