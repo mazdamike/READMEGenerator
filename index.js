@@ -8,6 +8,11 @@ console.log("Hi, welcome to README Generator.");
 const questions = [
 {
     type: "input",
+    name: "userName",
+    message: "What is your GitHub user name?"
+},
+{
+    type: "input",
     name: "title",
     message: "What is the title of your project?"
 },
@@ -49,7 +54,7 @@ const questions = [
 },
 {
     type: "input",
-    name: "questions",
+    name: "qAndA",
     message: "Add common questions and answers regarding your project?"
 },
 ];
