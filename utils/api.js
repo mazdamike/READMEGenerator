@@ -1,14 +1,7 @@
-
-
 const api = {
-    getUser(username) {
-  
-    }
-  };
-  
-
-
-
-
+  getUser(username) {
+    
+  }
+};
 
 module.exports = api;
