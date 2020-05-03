@@ -56,7 +56,7 @@ const questions = [
 ];
 
 inquirer.prompt(questions).then(answers => {
-    console.log(answers, null, '  ');
+    // console.log(answers, null, '  ');
 
     const data = generateMarkdown(answers);
     
@@ -68,7 +68,7 @@ inquirer.prompt(questions).then(answers => {
         console.log("Your README file has been created!");
     
     });
-
+    
 });
 
 
